@@ -1,0 +1,15 @@
+.field__input {
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+
+
+/* @media (max-width: 1200px) {
+  .field__input {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+} */

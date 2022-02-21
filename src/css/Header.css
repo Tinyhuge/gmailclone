@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.header__logo{
+    height: 40px;
+}
+
+.header__icon {
+    padding: 20px;
+   
+}
+
+.header__icon:hover{
+    color: crimson;
+    background-color: rgb(223, 208, 208);
+    border-radius: 999px;
+}
