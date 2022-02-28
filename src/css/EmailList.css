@@ -1,0 +1,26 @@
+.elist {
+  margin: 5px;
+}
+.elist__hover {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.elist__hover:hover {
+  /* border-radius: 48px; */
+  border-top-right-radius: 48px;
+  border-bottom-right-radius: 48px;
+  background-color: rgb(191, 221, 241);
+}
+
+.elist__icon {
+  margin-right: 20px;
+}
+
+.elist__spacing {
+  width: 100%;
+
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}

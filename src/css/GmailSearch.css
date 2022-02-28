@@ -1,0 +1,203 @@
+.search {
+  margin: 10px;
+  background-color: lightgrey;
+  position: sticky;
+
+  padding: 10px;
+  border-radius: 48px;
+  box-shadow: 10px, 10px, 13px, 10px, rgba(0, 0, 0, 2);
+}
+
+.search__row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.search__menuSpacing {
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search__input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline-width: 0;
+  background-color: transparent;
+}
+.search__label {
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.search__menu {
+  margin-right: 15px;
+}
+.search__avatar {
+}
+
+.search__dBox {
+  margin-top: 15px;
+
+  border: 1px solid lightgray;
+  width: 100%;
+  /* padding: 10px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.search__dInput {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.search__dPassword {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.search__dBtn {
+  color: brown;
+  background-color: rgb(33, 197, 33);
+}
+.search__dSign {
+}
+.search__dDivider {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+.search__dDivider > p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.search__dLine {
+  width: 100%;
+  border-bottom: 1px solid rgb(46, 44, 44);
+}
+
+.search__dButton1 {
+  width: 40%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  /* background-color: rgb(197, 15, 15); */
+}
+.search__dButton1 > h3 {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.search__dButton2 {
+}
+.search__dBtnBox {
+  width: 20%;
+  padding-right: 7px;
+  padding-left: 8px;
+  color: white;
+  border-right: 1px solid black;
+}
+.search__dHLine {
+  border-left: 1px solid white;
+}
+
+.search__dInput2 {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid gray;
+  width: 80%;
+  height: 50px;
+  border-radius: 8px;
+}
+.search__dCheckbox {
+  display: flex;
+  align-items: center;
+}
+.search__dCheckbox > input {
+  margin-right: 10px;
+}
+.search__dPassword > p {
+  margin-right: 10px;
+}
+
+.search__dInput2 > input {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  outline-width: 0px;
+}
+
+.search__dInput2 > .MuiSvgIcon-root {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: grey;
+}
+
+.search__LayoutBtn {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.search__LayoutB1 {
+  display: flex;
+  justify-content: space-between;
+}
+.search__LayoutB2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search__tab {
+  width: 100%;
+  height: 50px;
+  /* margin-top: 30px; */
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.search__tab:hover {
+  cursor: pointer;
+}
+.search__tab1 {
+  text-align: center;
+  border-top: 3px solid green;
+  background-color: white;
+  height: 50px;
+  width: 50%;
+}
+
+.search__tab2 {
+  border-top: 1px solid lightgray;
+  background-color: lightgray;
+  height: 50px;
+  width: 50%;
+}
+.search__tabText {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 22px;
+  color: rgb(61, 59, 59);
+}

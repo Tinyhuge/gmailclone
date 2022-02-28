@@ -1,0 +1,28 @@
+.dsearch__dButton1 {
+  width: 42%;
+  height: 45px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  background-color: rgb(197, 15, 15);
+}
+.dsearch__dButton1:hover{
+    cursor: pointer;
+}
+.dsearch__dButton1 > h3 {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.dsearch__dBtnBox {
+  width: 20%;
+  padding-right: 10px;
+  padding-left: 5px;
+  color: white;
+  border-right: 1px solid black;
+}
+.dsearch__dHLine {
+  border-left: 1px solid white;
+}

@@ -1,0 +1,54 @@
+.list__hover{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin: 2px;
+}
+.list__hover:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.list {
+    
+  display: flex;
+  /* background-color: lightcoral; */
+  align-items: center;
+  /* margin: 20px; */
+}
+.list:hover {
+  /* background-color: lightgray; */
+}
+.list__avatar {
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+}
+.list__layout {
+  width: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+}
+.list__name > p {
+  text-align: left;
+}
+.list__name > h3 {
+  margin-bottom: 6px;
+}
+.list__name {
+  /* background-color: gray; */
+  display: flex;
+  justify-content: space-between;
+}
+.list__message {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.list__border {
+  margin-top: 8px;
+  border-bottom: 1px solid lightgray;
+}

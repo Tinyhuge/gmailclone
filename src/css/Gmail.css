@@ -1,0 +1,56 @@
+.mail {
+}
+.mail__hover {
+  display: flex;
+
+  cursor: pointer;
+  margin: 2px;
+  padding: 10px;
+}
+
+@media (min-width: 1025px) {
+  .mail__hover {
+    /* margin-left: 30%;
+    margin-right: 30%; */
+  }
+  .mail {
+    width: 30%;
+  }
+}
+
+.mail__hover:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+.mail__avatar {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.mail__layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.mail__name {
+  display: flex;
+  justify-content: space-between;
+}
+.mail__name > h3 {
+  margin-bottom: 5px;
+}
+.mail__name > p {
+  margin-bottom: 5px;
+}
+.mail__subject {
+  margin-bottom: 0px;
+}
+
+.mail__message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mail__star {
+  color: red !important;
+}
